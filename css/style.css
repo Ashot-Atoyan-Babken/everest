@@ -353,6 +353,10 @@
    align-items: center;
 }
 
+.coun {
+   margin: 0px 0px 50px 0px;
+}
+
 .coun h3 {
    font-family: 'Roboto';
    font-style: normal;
@@ -391,14 +395,13 @@
    font-size: 16px;
    line-height: 19px;
    display: flex;
-   align-items: center;
    justify-content: center;
-   /* Светлый */
+   align-items: center;
    border: 2px solid #FCFCFC;
+
+   /* Светлый */
    width: 170px;
    height: 45px;
+   margin: 0 auto;
    color: #FCFCFC;
-   cursor: pointer;
-   margin: 50px auto 100px;
-
 }
