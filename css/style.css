@@ -153,3 +153,167 @@
 .right_flex img {
    margin: 150px 0px 0px 0px;
 }
+
+.level-2 {
+   margin: 140px 0px 0px 0px;
+}
+
+.level-2 h2 {
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 52px;
+   line-height: 115%;
+   /* or 60px */
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #061B28;
+   margin: 0px 0px 80px 0px;
+}
+
+.level_2-flex {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.card {
+   background: url('../img/beluxa.jpg') no-repeat;
+   background-size: cover;
+   background-position: top center;
+   margin: 0px 31px 0px 0px;
+}
+
+.card-top {
+   display: flex;
+   align-items: center;
+   margin: 39px 0px 135px 40px;
+   position: relative;
+
+}
+
+
+.card-top p:nth-child(3) {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 35px;
+   height: 35px;
+   background: rgba(252, 252, 252, 0.4);
+   border-radius: 50%;
+   margin: 0px 41px 0px 0px;
+}
+
+.card-top p:nth-child(2) {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 115%;
+   color: #061B28;
+   margin: 0px 181px 0px 7px;
+}
+
+.card-gen {
+   margin: 0px 0px 0px 40px;
+   position: relative;
+}
+
+.card-gen h3 {
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 26px;
+   line-height: 115%;
+   display: flex;
+   align-items: center;
+   color: #061B28;
+   margin: 0px 0px 25px 0px;
+
+}
+
+.card-2 {
+   background: url('../img/elbrus.jpg') no-repeat;
+   background-size: cover;
+   background-position: top center;
+   margin: 0px 31px 0px 0px;
+
+}
+
+.card-3 {
+   background: url('../img/kilimanjaro.jpg') no-repeat;
+   background-size: cover;
+   background-position: top center;
+
+
+}
+
+.card-gen_info {
+   display: flex;
+
+}
+
+.bg img {
+   position: absolute;
+   width: 387px;
+   height: 370px;
+}
+
+
+.card-gen_info p {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 115%;
+   display: flex;
+   align-items: center;
+   color: #061B28;
+   border-right: 1px solid #000;
+   padding: 0px 10px 0px 0px;
+   margin: 0px 20px 25px 0px;
+}
+
+.card-gen_info p:last-child {
+   border: none;
+}
+
+.card-gen_foot {
+   display: flex;
+   align-items: center;
+   margin: 0px 0px 38px 0px;
+}
+
+.card-gen_foot p:first-child {
+   display: flex;
+   align-items: center;
+   width: 12px;
+   height: 12px;
+   border-radius: 50%;
+   border: 2px solid #FCFCFC;
+   color: #FCFCFC;
+   margin: 0px -7px 0px 0px;
+}
+
+.card-gen_foot img {
+   margin: 0px 6px 0px 0px;
+}
+
+.card-gen_foot p:nth-child(3) {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 115%;
+   /* or 21px */
+
+   display: flex;
+   align-items: center;
+
+   /* Темный */
+
+   color: #061B28;
+
+}
