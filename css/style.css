@@ -307,13 +307,98 @@
    font-weight: 400;
    font-size: 18px;
    line-height: 115%;
-   /* or 21px */
-
    display: flex;
    align-items: center;
-
-   /* Темный */
-
    color: #061B28;
+
+}
+
+.main__level-3 {
+   background: url('../img/map.jpg') no-repeat;
+   background-size: cover;
+   background-position: top center;
+}
+
+.level-3 h2 {
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 52px;
+   line-height: 115%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 205px 0px 0px 0px;
+   padding: 100px 0px 25px 0px;
+   color: #FCFCFC;
+}
+
+.level-3 span {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 140%;
+   display: flex;
+   align-items: center;
+   width: 243px;
+   margin: 0 auto;
+   text-align: center;
+   color: #FCFCFC;
+}
+
+.level_3-flex {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.coun h3 {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 140%;
+   /* or 25px */
+   border-bottom: 1px solid #45545E;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 60px 109px 15px 0px;
+   color: #A7AEB4;
+
+}
+
+.coun p {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 22px;
+   line-height: 140%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 60px 109px 15px 0px;
+   border-bottom: 1px solid #45545E;
+   color: #FCFCFC;
+}
+
+
+.all {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 19px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   /* Светлый */
+   border: 2px solid #FCFCFC;
+   width: 170px;
+   height: 45px;
+   color: #FCFCFC;
+   cursor: pointer;
+   margin: 50px auto 100px;
 
 }
