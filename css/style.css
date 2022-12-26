@@ -398,10 +398,377 @@
    justify-content: center;
    align-items: center;
    border: 2px solid #FCFCFC;
-
-   /* Светлый */
    width: 170px;
    height: 45px;
    margin: 0 auto;
    color: #FCFCFC;
+}
+
+
+.level-4 h2 {
+   margin: 140px auto 80px;
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 52px;
+   line-height: 115%;
+   /* or 60px */
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   /* Темный */
+
+   color: #061B28;
+
+}
+
+.level-4-flex {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.level-4-flex-left {
+   margin-right: 70px;
+}
+
+.news {
+   width: 400px;
+}
+
+.news p:first-child {
+   padding: 30px 0px 0px 30px;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 140%;
+   /* or 20px */
+
+   display: flex;
+   align-items: center;
+
+   color: #7E8386;
+
+}
+
+.news p:nth-child(2) {
+
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 140%;
+   /* or 25px */
+
+   display: flex;
+   align-items: center;
+
+   /* Темный */
+
+   color: #061B28;
+   border-bottom: 1.5px solid #000;
+   padding: 30px 0px 30px 30px;
+}
+
+.news:hover.news p {
+   transition: 0.5s ease-in-out;
+
+   background-color: #000;
+   color: #FCFCFC;
+}
+
+.level-4-flex-left input {
+   background: #EC5118;
+   width: 400px;
+   height: 50px;
+   margin: 15px auto 0;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 140%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: none;
+   color: #FCFCFC;
+}
+
+.level-4-flex-right img {
+   margin: 0px 0px 40px 0px;
+}
+
+.level-4-flex-right p:nth-child(2) {
+
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 140%;
+   /* or 20px */
+
+   display: flex;
+   align-items: center;
+   margin: 0px 0px 20px 0px;
+   color: #626F77;
+
+}
+
+.level-4-flex-right h3 {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 22px;
+   line-height: 140%;
+   /* or 31px */
+
+   display: flex;
+   align-items: center;
+
+   /* Темный */
+   margin: 0px 0px 35px 0px;
+   color: #061B28;
+
+}
+
+.level-4-flex-right p:nth-child(4) {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150%;
+   /* or 24px */
+   width: 683px;
+   display: flex;
+   align-items: center;
+
+   /* Темный */
+
+   color: #061B28;
+}
+
+.level-5 {
+   margin-top: 141px;
+}
+
+.level-5-flex {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.level-5-flex-left {
+   background: #061B28;
+   padding: 80px 60px 64px 98px;
+}
+
+.level-5-flex-left h2 {
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 52px;
+   line-height: 115%;
+   /* or 60px */
+   width: 527px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   /* Светлый */
+   margin: 0 auto;
+   color: #FCFCFC;
+   padding: 0px 0px 40px 0px;
+}
+
+.level-5-flex-left p:nth-child(2) {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 150%;
+   /* or 27px */
+   padding: 0px 0px 40px 0px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   /* Светлый */
+   width: 431px;
+   color: #FCFCFC;
+
+}
+
+.level-5-flex-left input {
+   display: block;
+   border: none;
+   border-bottom: 1px solid #45545E;
+   margin-bottom: 35px;
+
+   width: 525px;
+   background: #061B28;
+   color: #7E8386;
+}
+
+.level-5-flex-left input[type="submit"] {
+   background: #EC5118;
+   height: 50px;
+   width: 525px;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 140%;
+   /* or 22px */
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   /* Светлый */
+
+   color: #FCFCFC;
+}
+
+.level-5-flex-left p:nth-child(5) {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 140%;
+   /* or 20px */
+
+   display: flex;
+   align-items: center;
+
+   /* Светлый */
+
+   color: #FCFCFC;
+
+}
+
+.level-6 {
+   margin-top: 140px;
+}
+
+.level-6-flex {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.level-6-flex-left {
+   margin-right: 70px;
+}
+
+
+.level-6-flex-right h2 {
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 52px;
+   line-height: 115%;
+   /* or 60px */
+   padding-bottom: 60px;
+   display: flex;
+   align-items: center;
+
+   /* Темный */
+
+   color: #061B28;
+}
+
+.level-6-flex-right p:nth-child(2),
+.level-6-flex-right p:nth-child(4),
+.level-6-flex-right p:nth-child(6),
+.level-6-flex-right p:nth-child(8) {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 150%;
+   /* or 27px */
+   padding-bottom: 20px;
+   display: flex;
+   align-items: center;
+
+   /* Темный */
+
+   color: #061B28;
+}
+
+.level-6-flex-right p:nth-child(3),
+.level-6-flex-right p:nth-child(5),
+.level-6-flex-right p:nth-child(7) {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 22px;
+   line-height: 140%;
+   /* or 31px */
+
+   display: flex;
+   align-items: center;
+   padding-bottom: 15px;
+   /* Темный */
+
+   color: #061B28;
+}
+
+.media img {
+   margin-right: 35px;
+}
+
+.media img:last-child {
+   margin: 0px 0px 0px 0px;
+}
+
+.footer {
+   margin-top: 140px;
+   background: #061B28;
+}
+
+
+.footer__main {
+   padding: 56px 0;
+   display: flex;
+   justify-content: center;
+   color: #fff;
+}
+
+.footer__main p {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 150%;
+   /* or 18px */
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   /* Светлый */
+
+   color: #FCFCFC;
+
+}
+
+.footer__main h2 {
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 36px;
+   display: flex;
+   align-items: center;
+
+   /* Светлый */
+   margin: 0 320px;
+   color: #FCFCFC;
+
+}
+
+.footer__main img {
+   margin: 0 5px;
 }
